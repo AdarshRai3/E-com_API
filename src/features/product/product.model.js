@@ -17,7 +17,7 @@ export default class ProductModel {
       this.sizes= sizes  
    }
    
-   static GetAllProducts(){
+   static getAllProducts(){
        return products;
    }
 

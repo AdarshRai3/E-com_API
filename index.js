@@ -1,29 +1,21 @@
-import express from "express"
-import mongoose from "mongoose"
-import bodyParser from "body-parser";
-import productRouter from "./src/features/product/product.route.js";
-
+// 1. Import express
+import express from 'express';
+import bodyParser from 'body-parser';
+import productRouter from './src/features/product/product.routes.js';
+// 2. Create Server
 const server = express();
 
-server.use(
-    '/api/products', 
-    productRouter
-);
+server.use(bodyParser.json());
+// for all requests related to product, redirect to product routes.
+// localhost:3200/api/products
+server.use("/api/products", productRouter);
 
-server.use(
-    bodyParser.json()
-);
+// 3. Default request handler
+server.get('/', (req, res)=>{
+    res.send("Welcome to Ecommerce APIs");
+});
 
-server.get(
-    '/', 
-    (req, res) => {
-    res.send("Welocme to e-com api");
-    }
-)
-
-server.listen(
-    3000, 
-    () => {
-    console.log("server is running on port 3000");
-    }
-)
+// 4. Specify port.
+server.listen(3000,()=>{
+    console.log("Server is running at 3000");
+});
