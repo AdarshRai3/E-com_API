@@ -5,7 +5,7 @@ export default class ProductModel {
       desc,
       imageUrl,
       category,
-      prizes,
+      prices,
       sizes
    ){
       this.id = id
@@ -13,11 +13,17 @@ export default class ProductModel {
       this.desc = desc
       this.imageUrl = imageUrl
       this.category = category
-      this.prizes = prizes
+      this.prices = prices
       this.sizes= sizes  
    }
    
-   static getAllProducts(){
+   static getAll(){
+       return products;
+   }
+
+   static add(product){
+       products.id = products.length+1;
+       products.push(product);
        return products;
    }
 
