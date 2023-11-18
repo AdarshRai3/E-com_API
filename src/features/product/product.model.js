@@ -41,9 +41,12 @@ export default class ProductModel{
     }
     
     static update(id, product){
-        const index = products.findIndex((i)=>i.id == id);
-        products[index] = product;
-        return products[index];
+        const updatedProduct = products.find((i)=>i.id == id);
+        if(!updatedProduct){
+            return null;
+        }
+        Object.assign(updatedProduct, product);
+        return updatedProduct;
     }
 
     static delete(id){

@@ -43,6 +43,6 @@ productRouter.delete(
     productController.deleteProduct
 )
 
-// localhost:4100/api/products/filter?minPrice=10&maxPrice=100&category=category1
+// localhost:3000/api/products/filter?minPrice=10&maxPrice=100&category=category1
 
 export default productRouter;

@@ -52,6 +52,7 @@ export default class ProductController{
         if(!updatedProduct){
             res.status(404).send('Product not found');
         }
+        
           
         return res.status(200).send(updatedProduct);
     }
