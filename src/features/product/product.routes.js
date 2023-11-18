@@ -24,4 +24,10 @@ productRouter.get(
     productController.getOneProduct
 );
 
+productRouter.get(
+    '/filter',
+    productController.filterProducts
+);
+// localhost:4100/api/products/filter?minPrice=10&maxPrice=100&category=category1
+
 export default productRouter;
