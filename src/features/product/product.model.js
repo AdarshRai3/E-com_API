@@ -39,7 +39,17 @@ export default class ProductModel{
       });
       return result;
     }
+    
+    static update(id, product){
+        const index = products.findIndex((i)=>i.id == id);
+        products[index] = product;
+        return products[index];
+    }
 
+    static delete(id){
+        const index = products.findIndex((i)=>i.id == id);
+        products.splice(index, 1);
+    }
 } 
 
 var products = [

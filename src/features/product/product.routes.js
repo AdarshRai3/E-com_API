@@ -33,6 +33,15 @@ productRouter.get(
     productController.getOneProduct
 );
 
+productRouter.put  (
+    '/:id',
+    productController.updateProduct
+)
+
+productRouter.delete(
+    '/:id', 
+    productController.deleteProduct
+)
 
 // localhost:4100/api/products/filter?minPrice=10&maxPrice=100&category=category1
 

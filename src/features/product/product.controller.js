@@ -44,4 +44,22 @@ export default class ProductController{
         res.status(200).send(result);
     }
 
+    updateProduct(req, res){
+        const updatedProduct = ProductModel.update(
+            req.params.id,
+            req.body
+        )  
+        if(!updatedProduct){
+            res.status(404).send('Product not found');
+        }
+          
+        return res.status(200).send(updatedProduct);
+    }
+
+    deleteProduct(req, res){
+         
+        ProductModel.delete(req.params.id);
+        res.status(204).send();
+    }
+
 }
