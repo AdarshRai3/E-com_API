@@ -4,48 +4,47 @@
 import express from 'express';
 import ProductController from './product.controller.js';
 import { upload } from '../../middlewares/fileupload.middleware.js';
+import jwtAuth from '../../middlewares/jwt.middleware.js';
 
 // 2. Initialize Express router.
 const productRouter = express.Router();
+
 const productController = new ProductController();
 
-// All the paths to the controller methods.
-// localhost/api/products 
+// All the paths to controller methods.
+// localhost/api/products
+
+// localhost:4100/api/products/filter?minPrice=10&maxPrice=20&category=Category1
 productRouter.post(
-    '/rate',
-    productController.rateProduct
+  '/rate',jwtAuth,
+  (req, res, next)=>{
+    productController.rateProduct(req, res, next)
+ }
 );
 productRouter.get(
-    '/filter',
-    productController.filterProducts
+  '/filter',
+  (req, res)=>{
+    productController.filterProducts(req, res)
+ }
 );
-
 productRouter.get(
-    '/', 
-    productController.getAllProducts
+  '/',
+  (req, res)=>{
+    productController.getAllProducts(req, res)
+ }
 );
-
 productRouter.post(
-    '/', 
-    upload.single('imageUrl'),
-    productController.addProduct
+  '/',
+  upload.single('imageUrl'),
+  (req, res)=>{
+    productController.addProduct(req, res)
+ }
 );
-
 productRouter.get(
-    '/:id',
-    productController.getOneProduct
+  '/:id',
+  (req, res)=>{
+    productController.getOneProduct(req, res)
+ }
 );
-
-productRouter.put  (
-    '/:id',
-    productController.updateProduct
-)
-
-productRouter.delete(
-    '/:id', 
-    productController.deleteProduct
-)
-
-// localhost:3000/api/products/filter?minPrice=10&maxPrice=100&category=category1
 
 export default productRouter;
