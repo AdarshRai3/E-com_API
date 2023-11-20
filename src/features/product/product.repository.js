@@ -75,6 +75,10 @@ class ProductRepository {
       
       // Check if product exists
       const product = await collection.findOne({ _id: new ObjectId(id) });
+
+      console.log(id);
+      console.log('Run till here')
+
       if (!product) {
         return null;
       }
