@@ -72,3 +72,12 @@
  Tue Nov 21 2023 03:10:53 GMT+0530 (India Standard Time) - /api/product/655bb185233ac0e98ac34c9d - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
  Tue Nov 21 2023 03:11:15 GMT+0530 (India Standard Time) - /api/products/655bb185233ac0e98ac34c9d - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
  Tue Nov 21 2023 03:11:45 GMT+0530 (India Standard Time) - /api/products? - {}
+ Tue Nov 21 2023 04:23:30 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 04:27:00 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 04:27:05 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 04:33:20 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 04:35:38 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 04:37:03 GMT+0530 (India Standard Time) - /api/products/655bb185233ac0e98ac34c9d - {}
+ Tue Nov 21 2023 04:38:40 GMT+0530 (India Standard Time) - /api/products/655bb185233ac0e98ac34c9d - {"quantity":18}
+ Tue Nov 21 2023 04:39:07 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 04:39:51 GMT+0530 (India Standard Time) - /api/products/655be6424c393b822678ce20 - {"quantity":18}

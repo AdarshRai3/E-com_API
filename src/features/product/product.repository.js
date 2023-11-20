@@ -76,8 +76,7 @@ class ProductRepository {
       // Check if product exists
       const product = await collection.findOne({ _id: new ObjectId(id) });
 
-      console.log(id);
-      console.log('Run till here')
+      
 
       if (!product) {
         return null;
@@ -106,6 +105,7 @@ class ProductRepository {
       const db = getDB();
       const collection = db.collection(this.collection);
       await collection.deleteOne({ _id: new ObjectId(id) });
+      console.log('product deleted');
     } catch (err) {
       console.log(err);
       throw new ApplicationError('Something went wrong with database', 500);

@@ -34,7 +34,7 @@ productRouter.get(
  }
 );
 productRouter.post(
-  '/',
+  '/create',
   upload.single('imageUrl'),
   (req, res)=>{
     productController.addProduct(req, res)

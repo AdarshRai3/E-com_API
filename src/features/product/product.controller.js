@@ -18,10 +18,11 @@ export default class ProductController {
 
   async addProduct(req, res) {
     try {
-      const { name, price, sizes } = req.body;
+      const { name,quantity, price, sizes } = req.body;
       const newProduct = new ProductModel(
         name,
         null,
+        parseInt(quantity),
         parseFloat(price),
         req.file.filename,
         null,
@@ -112,7 +113,7 @@ export default class ProductController {
       const id = req.params.id;
       await this.productRepository.delete(id);
 
-      res.status(204).send('Product deleted successfully');
+      res.status(204).send('Product deleted');
     } catch (err) {
       console.log(err);
       return res.status(500).send('Something went wrong');
