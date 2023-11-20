@@ -47,4 +47,17 @@ productRouter.get(
  }
 );
 
+productRouter.put(
+  '/:id',
+  (req, res)=>{
+    productController.updateProduct(req, res)
+  }
+)
+
+productRouter.delete(
+    '/:id',
+    (req, res)=>{
+      productController.deleteProduct(req, res)
+    }
+)
 export default productRouter;

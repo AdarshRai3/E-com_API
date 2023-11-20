@@ -8,3 +8,57 @@
  Mon Nov 20 2023 22:22:58 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Jane Doe","email":"jane@gmail.com","password":"Password2","type":"Costumer"}
  Mon Nov 20 2023 22:27:27 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Peter Jones","email":"peter@gmail.com","password":"Password3","type":"Costumer"}
  Mon Nov 20 2023 22:52:26 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Adarsh Rai","email":"ad@gmail.com","password":"Adisfine","type":"Costumer"}
+ Tue Nov 21 2023 00:30:48 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Adarsh Rai","email":"ad@gmail.com","password":"Adisfine","type":"Costumer"}
+ Tue Nov 21 2023 00:31:23 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Arsh Rai","email":"ar@gmail.com","password":"Arshisfine","type":"Costumer"}
+ Tue Nov 21 2023 00:32:24 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 00:45:09 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Arsh Rai","email":"ar@gmail.com","password":"Arshisfine","type":"Costumer"}
+ Tue Nov 21 2023 00:46:21 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 00:50:36 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 00:55:27 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 01:01:02 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 01:01:57 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 01:02:16 GMT+0530 (India Standard Time) - /api/products/3 - {}
+ Tue Nov 21 2023 01:12:22 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:12:56 GMT+0530 (India Standard Time) - /api/products/filter?minPrice=10&maxPrice=100&category=Cateogory1 - {}
+ Tue Nov 21 2023 01:13:21 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:13:48 GMT+0530 (India Standard Time) - /api/product/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:24:34 GMT+0530 (India Standard Time) - /api/product/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:26:01 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:40:41 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 01:40:57 GMT+0530 (India Standard Time) - /api/product/655bb2a7233ac0e98ac34c9e - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 01:41:49 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:42:17 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 01:42:20 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 01:42:25 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 01:42:32 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:46:22 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 01:46:42 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 01:46:55 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:47:22 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 01:47:57 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:47:59 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 01:49:27 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {}
+ Tue Nov 21 2023 02:00:18 GMT+0530 (India Standard Time) - /api/products/ - {}
+ Tue Nov 21 2023 02:01:08 GMT+0530 (India Standard Time) - /api/products/655bbe96c83d0b1568d37ed0 - {}
+ Tue Nov 21 2023 02:01:11 GMT+0530 (India Standard Time) - /api/products/655bbe96c83d0b1568d37ed0 - {}
+ Tue Nov 21 2023 02:02:08 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:02:19 GMT+0530 (India Standard Time) - /api/products/655bbe96c83d0b1568d37ed0 - {}
+ Tue Nov 21 2023 02:20:11 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:20:13 GMT+0530 (India Standard Time) - /api/products/655bb2a7233ac0e98ac34c9e - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:20:59 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 02:21:05 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 02:21:40 GMT+0530 (India Standard Time) - /api/products/655bc6b3b7ade964360132e1 - {}
+ Tue Nov 21 2023 02:21:55 GMT+0530 (India Standard Time) - /api/product/655bc6b3b7ade964360132e1 - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:24:05 GMT+0530 (India Standard Time) - /api/products/655bc6b3b7ade964360132e1 - {}
+ Tue Nov 21 2023 02:25:09 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 02:25:19 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 02:26:40 GMT+0530 (India Standard Time) - /api/product/655bc6b3b7ade964360132e1 - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:27:20 GMT+0530 (India Standard Time) - /api/product/655bb185233ac0e98ac34c9d - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:31:29 GMT+0530 (India Standard Time) - /api/products?= - {}
+ Tue Nov 21 2023 02:32:58 GMT+0530 (India Standard Time) - /api/product/655bc7b7b7ade964360132e3?name=Sin%20Jeans&price=2000 - {}
+ Tue Nov 21 2023 02:33:01 GMT+0530 (India Standard Time) - /api/product/655bc7b7b7ade964360132e3?name=Sin%20Jeans&price=2000 - {}
+ Tue Nov 21 2023 02:33:07 GMT+0530 (India Standard Time) - /api/product/655bc7b7b7ade964360132e3?name=Sin%20Jeans&price=2000 - {}
+ Tue Nov 21 2023 02:33:09 GMT+0530 (India Standard Time) - /api/product/655bc7b7b7ade964360132e3?name=Sin%20Jeans&price=2000 - {}
+ Tue Nov 21 2023 02:44:33 GMT+0530 (India Standard Time) - /api/product/655b8e73f8323169677655d1 - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:44:35 GMT+0530 (India Standard Time) - /api/product/655b8e73f8323169677655d1 - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}
+ Tue Nov 21 2023 02:44:37 GMT+0530 (India Standard Time) - /api/product/655b8e73f8323169677655d1 - {"name":"New Product Name","price":29.99,"sizes":["M","L","XL"]}

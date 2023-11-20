@@ -51,7 +51,7 @@ server.use(loggerMiddleware);
 
 server.use(
   '/api/products',
-  jwtAuth,
+
   productRouter
 );
 server.use("/api/cartItems", jwtAuth, cartRouter);
@@ -84,8 +84,8 @@ server.use((req, res)=>{
 
 
 // 5. Specify port.
-server.listen(3200, ()=>{
-  console.log('Server is running at 3200');
+server.listen(3000, ()=>{
+  console.log('Server is running at 3000');
   connectToMongoDB();
 
 });
