@@ -1,0 +1,10 @@
+
+ Mon Nov 20 2023 17:25:24 GMT+0530 (India Standard Time) - /api/products - {}
+ Mon Nov 20 2023 17:25:59 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"John Doe","email":"john@gmail.com","password":"Password1","type":"Costumer"}
+ Mon Nov 20 2023 17:26:44 GMT+0530 (India Standard Time) - /api/products?Authoriation=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsImVtYWlsIjoiam9obkBnbWFpbC5jb20iLCJpYXQiOjE3MDA0ODEzNzEsImV4cCI6MTcwMDQ4NDk3MX0.9L0UujfQ5u_fhM93xb0qiiPaS5GKLOO8JKeW-zdRTJE - {}
+ Mon Nov 20 2023 17:27:13 GMT+0530 (India Standard Time) - /api/products?Authoriation=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjIsImVtYWlsIjoiam9obkBnbWFpbC5jb20iLCJpYXQiOjE3MDA0ODEzNzEsImV4cCI6MTcwMDQ4NDk3MX0.9L0UujfQ5u_fhM93xb0qiiPaS5GKLOO8JKeW-zdRTJE - {}
+ Mon Nov 20 2023 22:13:25 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"John Doe","email":"john@gmail.com","password":"Password1","type":"Costumer"}
+ Mon Nov 20 2023 22:20:59 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"John Doe","email":"john@gmail.com","password":"Password1","type":"Costumer"}
+ Mon Nov 20 2023 22:22:58 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Jane Doe","email":"jane@gmail.com","password":"Password2","type":"Costumer"}
+ Mon Nov 20 2023 22:27:27 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Peter Jones","email":"peter@gmail.com","password":"Password3","type":"Costumer"}
+ Mon Nov 20 2023 22:52:26 GMT+0530 (India Standard Time) - /api/users/signup - {"name":"Adarsh Rai","email":"ad@gmail.com","password":"Adisfine","type":"Costumer"}
