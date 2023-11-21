@@ -110,3 +110,38 @@
  Tue Nov 21 2023 05:58:46 GMT+0530 (India Standard Time) - /api/products/655bc7adb7ade964360132e2 - {}
  Tue Nov 21 2023 05:58:47 GMT+0530 (India Standard Time) - /api/products/655bc7adb7ade964360132e2 - {}
  Tue Nov 21 2023 05:58:49 GMT+0530 (India Standard Time) - /api/products/655bc7adb7ade964360132e2 - {}
+ Tue Nov 21 2023 07:36:31 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 07:37:50 GMT+0530 (India Standard Time) - /api/products/655be6424c393b822678ce20 - {}
+ Tue Nov 21 2023 07:38:54 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 08:13:41 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 08:14:10 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 08:14:30 GMT+0530 (India Standard Time) - /api/products/655bb185233ac0e98ac34c9d - {}
+ Tue Nov 21 2023 08:18:54 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 08:19:48 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 08:20:12 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 08:21:55 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 08:28:51 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 08:30:11 GMT+0530 (India Standard Time) - /api/products/655bb185233ac0e98ac34c9d - {}
+ Tue Nov 21 2023 08:33:30 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 08:35:05 GMT+0530 (India Standard Time) - /api/products/655bc7b7b7ade964360132e3 - {"quantity":12}
+ Tue Nov 21 2023 08:35:29 GMT+0530 (India Standard Time) - /api/products/655bc7b7b7ade964360132e3 - {"quantity":25}
+ Tue Nov 21 2023 09:26:54 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 09:43:46 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 09:44:49 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 10:02:03 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 10:06:41 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 10:08:02 GMT+0530 (India Standard Time) - /api/products/655c33d962e393068055423c - {}
+ Tue Nov 21 2023 10:09:17 GMT+0530 (India Standard Time) - /api/products/655be6424c393b822678ce20 - {"quantity":50}
+ Tue Nov 21 2023 10:10:11 GMT+0530 (India Standard Time) - /api/products/655c33d962e393068055423c - {"quantity":100}
+ Tue Nov 21 2023 10:11:59 GMT+0530 (India Standard Time) - /api/products/655bb185233ac0e98ac34c9d - {}
+ Tue Nov 21 2023 10:45:56 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 10:46:32 GMT+0530 (India Standard Time) - /api/products/655c33d962e393068055423c%22 - {}
+ Tue Nov 21 2023 10:46:45 GMT+0530 (India Standard Time) - /api/products/655c33d962e393068055423c - {}
+ Tue Nov 21 2023 10:47:08 GMT+0530 (India Standard Time) - /api/products/655c33d962e393068055423c%22 - {}
+ Tue Nov 21 2023 10:47:17 GMT+0530 (India Standard Time) - /api/products/655c33d962e393068055423c - {}
+ Tue Nov 21 2023 10:56:43 GMT+0530 (India Standard Time) - /api/products - {}
+ Tue Nov 21 2023 10:58:13 GMT+0530 (India Standard Time) - /api/products/create - {}
+ Tue Nov 21 2023 10:59:46 GMT+0530 (India Standard Time) - /api/products/655c3fedc040c9a3bfcd1876 - {}
+ Tue Nov 21 2023 11:01:19 GMT+0530 (India Standard Time) - /api/products/655c3fedc040c9a3bfcd1876 - {"quantity":12}
+ Tue Nov 21 2023 11:02:22 GMT+0530 (India Standard Time) - /api/products/655c3fedc040c9a3bfcd1876 - {"quantity":12,"price":42000}
+ Tue Nov 21 2023 11:03:08 GMT+0530 (India Standard Time) - /api/products/655c3fedc040c9a3bfcd1876 - {}
