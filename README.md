@@ -1,4 +1,4 @@
-Sure, here is the updated README file with Markdown syntax for copy snippets and the additional links you provided:
+
 
 ```markdown
 # E-Commerce API
